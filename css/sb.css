@@ -1,0 +1,181 @@
+.sb_title{width: 135px; height: 33px;font-family: Georgia; font-style: italic; /*font-weight: bold;*/font-size: 14px;cursor: pointer;overflow: hidden;padding-top: 2px;padding-right: 3px;padding-left: 3px;margin: 2px;}
+.sb_title p{width: 125px; height: 33px;font-family: Georgia; font-style: italic; font-weight: bold;font-size: 14px;cursor: pointer;overflow: hidden;margin-top: 2px;padding-right: 3px;padding-left: 3px}
+.sb_title span{text-decoration: underline;}
+.sb_title_search{width: 120px;height: 35px;overflow: hidden;font-family: Georgia;font-style: italic;font-size: 11px;color: 5E5E5E;/*padding-top: 5px;*/}
+.sb_duration{font-family: Arial; font-size: 11px; margin-top: 2px; text-align: center;}
+
+.sb_snapshot{width: 115px; height: 86px;/*margin-left: 5px;margin-top: -7px;*/margin-left:auto;margin-right:auto;}
+
+.sb_update_thumbnail{ text-align: center;margin-top:9px;}
+.sb_delete_video{text-align: center;margin-top:2px;}
+
+.sb_thumbnail{/*background: url('../img/frame_th.png');*/padding: 5px;margin-top: 20px;float: left;}
+
+.sb_thumbnail_page{background: url('../img/bg.png'); width: 420px; height: 580px;}
+/*.next-button{background: url('../img/add_to_post_d.png') repeat scroll 0 0 transparent;display: none;border-radius: 3px 3px 3px 3px;border-style: solid;border-width: 0px;cursor: pointer;width: 90px; height: 23px;text-indent: -9999px;margin-right: 25px;position: absolute;right: 0px;top: 50px;}*/
+.next-button{background: url('../img/add_to_post_d.png') repeat scroll 0 0 transparent;display: none;border-radius: 3px 3px 3px 3px;border-style: solid;border-width: 0px;cursor: pointer;width: 71px; height: 19px;}
+
+#add_snapshots_link{width: 131px; height: 22px; cursor: pointer; position: absolute; top: 465px; left: 16px;}
+.add_snapshots_youtube_link{width: 131px; height: 22px; position: absolute; top: 457px; left: 17px;}
+#sb_video_info{float: left; position: absolute; left: 150px; top: 356px; height: 300px;}
+
+#search{border: 1px solid #cacaca;width: 175px;height: 22px;-moz-border-radius: 3px;float:left;margin-top: 53px;margin-left: 25px;margin-bottom: 30px;}
+#search input{border: 0px solid white;float: left;margin-top: 0;margin-left: 5px;width: 140px;padding: 2px;}
+#search_button{background: url('../img/search_new.png') no-repeat; width:12px;height: 11px;cursor: pointer;float: left;border: none;}
+
+
+.label_check {background: url('../img/select.png') no-repeat scroll 0 0 transparent;height:15px;}
+.c_on{background: url('../img/select_select.png') no-repeat scroll 0 0 transparent;}
+
+.select_video{left: -9999px; position: absolute;height: 15px;}
+
+.thumbnail_search{margin-left: 0px;margin-top: 3px;}
+#thumbnail_bg{width: 121px; height: 92px;margin-top: 10px;position: relative;}
+.add_to_post{position: absolute;left:10px;}
+#header_div{height: 30px; margin-right: 15px; margin-top: 17px; position: relative;margin-bottom: 16px;}
+.video_result{float: left;width: 148px;height: 182px;margin-top: 27px;margin-left: 27px;position: relative;background-image:url('../img/bg_icon.png');}
+.refresh{position: absolute; z-index: 2; width: 136px; height: 30px; margin-left: 9px; float: left; }
+#videolist{float: left;margin-top: 88px;margin-left: 25px; width: 550px;padding-bottom: 50px;}
+#pagination_videoslist{font-size:11px;margin-left: 0px; padding-top: 10px; float: left; position: absolute; z-index: 1; width: 100%; *left: -72px;}
+/*
+#pagination_videoslist span {background-color: #AEADAE; color: white; padding: 2px 5px;}
+#pagination_videoslist a.page-numbers {background-color:#FFFFFF; color: white; padding: 2px 5px; text-decoration: none;}
+*/
+#pagination_videoslist a.page-numbers {background-color: #FFFFFF; color: #000000; padding: 2px 5px;text-decoration:none;}
+#pagination_videoslist .current {background-color:#464646; color: #86D6F8; padding: 2px 5px; text-decoration: none;}
+
+#sb_upload_wrapper{margin-top: 50px;height: 700px;}
+#loading{position: absolute;top: 0px;left: 20px;display: none;}
+#pagination{margin-top:57px; margin-left: 90px;}
+#videoitems{margin-top: -15px;float: left;}
+
+#background {width: 100%; height: 450px; float: left;}
+
+.stretch {position: absolute;width:100%;}
+.go_btn{background-image: url('../img/go_btn_20.png');text-indent: -9999px;width: 30px;height: 21px;padding-top: 2px;}
+
+div#media-upload-header ul {border-bottom-color: #DFDFDF; border-bottom-style: solid; border-bottom-width: 1px; padding-left: 10px; box-sizing: border-box;}
+div#media-upload-header ul li {padding: 5px 10px; float: left; margin: 0;}
+#sidemenu {background-color: #F9F9F9;float: left;margin: 0 0 0 0;width: 100%;}
+#sidemenu a{border: 0; text-decoration: none;}
+#sidemenu a.current{border: 0; color: rgba(204, 0, 0, 1);}
+
+#registrationForm table th {
+	text-align:left;
+}
+
+.springboardRegistrationError {
+background-color:red;
+padding:10px;
+font-weight:bold;
+font-size:12px;
+margin-bottom:15px;
+text-align:center;
+}
+
+#videoitems .inputbox {
+width:100px;
+font-family:georgia;
+font-style:italic;
+font-size:14px;
+color:#58595B;
+font-weight:0px;
+width:115px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#save_video { 
+margin-top:5px;
+position:absolute;
+right:9px;
+cursor:pointer;
+}
+.playlist_video_result{
+float: left;
+width: 145px;
+height: 145px;
+margin-top:14px;
+margin-left: 40px;
+position: relative;
+background-image:url('../img/bg_playlits_video.png');
+margin-bottom:10px;
+background-repeat:no-repeat;
+}
+
+.sb_video_div{
+float: left; 
+padding-top: 15px;
+/*margin: 9px; */
+width: 151px;
+height: 221px;
+background-image:url('../img/bg_icon_media.png');
+background-repeat:no-repeat;
+margin-left: 9px;
+margin-right: 9px;
+margin-top: 6px;
+margin-bottom:6px;
+}
+.sb_thumb_img {
+margin-left:auto;
+margin-right:auto;
+}
+
+#sb_channels{
+height:25px;
+width:257px;
+font-size:14px;
+font-family:georgia;
+color:#383838;
+font-style:italic;
+font-size:14px;
+border:1px solid #AFAFAF;
+}
+
+.utVideoDerails{
+	
+    left: 17px;
+    position: absolute;
+    top: 487px;
+    width: 131px;
+}
+.w_message {
+	background-image:url('../img/bg_intro.png');
+	width:413px;
+	height:194px;
+	position:relative;
+	text-align:center;
+	margin-top:15px;
+}
+.w_sub_message {
+	position:absolute;
+	bottom:35px;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3.sb_registration{
+padding:5px;
+background-color:#EBEAEA;
+width:454px;
+margin-bottom:10px;
+font-size:12px;
+margin-top:20px;
+}
+
+.sb_reg_login{
+margin-bottom:50px;
+}
+.sb_login_sp_form{
+	background-color:#456789;
+}
+.reg_inputs{
+	width:385px;
+}
+
+.login_inputs{
+margin-left:10px;
+width:385px;
+}
